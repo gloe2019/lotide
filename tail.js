@@ -33,6 +33,6 @@ assertEqual(result.length, 3);
 //Testing tail with an array with 1 element:
 const singleArr = ['Lonely'];
 result = tail(singleArr);
-assertEqual(singleArr.length, 0);
+assertEqual(singleArr.length, 0); //should fail, singleArr has 1 item.
 assertEqual(result.length, 0);
 assertEqual(result[0], undefined);
