@@ -5,11 +5,6 @@ const assertEqual = function(actual, expected) {
     console.log(`❌ Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-/* AssertEqual Test Cases
-assertEqual('Lighthouse Labs', 'Bootcamp');
-assertEqual(1, 1);
-assertEqual(1, 4);
-*/
 
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
