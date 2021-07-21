@@ -1,4 +1,4 @@
-const eqArrays = function (arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     //first check if arrays are same length
     return false;
@@ -21,7 +21,7 @@ const eqArrays = function (arr1, arr2) {
   }
 };
 
-const assertArraysEqual = function (arr1, arr2) {
+const assertArraysEqual = function(arr1, arr2) {
   let result = eqArrays(arr1, arr2);
   if (result === true) {
     console.log(`✅ Assertion Passed: ${arr1} === ${arr2}`);
@@ -30,7 +30,7 @@ const assertArraysEqual = function (arr1, arr2) {
   }
 };
 
-const flatten = function (items) {
+const flatten = function(items) {
   let flatArr = [];
   for (item of items) {
     if (Array.isArray(item) === true) {
