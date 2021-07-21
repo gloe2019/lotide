@@ -49,7 +49,7 @@ const middle = function(arr) {
 };
 
 //Test Cases
-//console.log(assertArraysEqual((middle([])), []));
+console.log(assertArraysEqual((middle([])), []));
 console.log(assertArraysEqual(middle([1]), []));
 console.log(assertArraysEqual(middle([1, 2, 3]), [2]));
 console.log(assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]));
