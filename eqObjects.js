@@ -24,29 +24,9 @@ const eqArrays = function(arr1, arr2) {
   }
 };
 
-console.log(eqArrays([1, 2, 3, 4], [4, 3, 2, 1])); //should be false
-console.log(eqArrays(['2', 3], ['2', 3])); //should be true
+//console.log(eqArrays([1, 2, 3, 4], [4, 3, 2, 1])); //should be false
+//console.log(eqArrays(['2', 3], ['2', 3])); //should be true
 
-// const eqObjects = function (object1, object2) {
-//   if (Object.keys(object1).length === Object.keys(object2).length) {
-//     for (const key of Object.keys(object1)) {
-//       console.log(key);
-//       if (Array.isArray(object1[key])) {
-//         //console.log(object1[key], object2[key])
-//         if (eqArrays(object1[key], object2[key]) === true) {
-//           continue;
-//         }
-//       } else if (object1[key] === object2[key]) {
-//         continue;
-//       } else {
-//         return false;
-//       }
-//     }
-//     return true;
-//   } else {
-//     return false;
-//   }
-// };
 
 const eqObjects = function(object1, object2) {
   let obj1Keys = Object.keys(object1);
