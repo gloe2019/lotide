@@ -60,3 +60,6 @@ assertArraysEqual(flatten(items), [
   "chargers",
   "bag",
 ]);
+
+
+module.exports = flatten

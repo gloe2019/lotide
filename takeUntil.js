@@ -52,3 +52,4 @@ const output = takeUntil(strings, x => x === 'commencing');
 assertArraysEqual(output, ['ground', 'control', 'to', 'major', 'tom']);
 
 
+module.exports = takeUntil

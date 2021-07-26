@@ -22,3 +22,5 @@ const countLetters = function(sentence) {
 
 console.log(countLetters("this is the last time!"));
 console.log(countLetters("I am still not fully comfortable with this"));
+
+module.exports = countLetters

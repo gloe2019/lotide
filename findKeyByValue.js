@@ -25,3 +25,5 @@ assertEqual(findKeyByValue(bestTVShowsByGenre, 'The Wire'), 'drama');
 //Test Case #2:
 const favSongsByArtist = {coldplay: 'In My Place', keane: 'This is the last time', coin: 'Boyfriend', travis: 'Waving at the Window' };
 assertEqual(findKeyByValue(favSongsByArtist, 'Boyfriend'), 'coin');
+
+module.exports = findKeyByValue
