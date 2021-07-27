@@ -1,5 +1,8 @@
 const letterPositions = function(sentence) {
   const results = {};
+  if (!sentence) {
+    return {}
+  }
   let cleanedStr = sentence.split(' ').join('');
   //update results
   let positionarr = [];
@@ -19,6 +22,7 @@ const letterPositions = function(sentence) {
   }
   return results;
 };
+
 
 
 module.exports = letterPositions
